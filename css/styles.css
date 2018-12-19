@@ -1,0 +1,133 @@
+body{
+    background-color: #f6f6f6;
+    font-family: 'Cuprum', sans-serif;
+}
+#intro-img{
+    background-image: url(../img/MA_Education_teacherlibrarianship_Banner_01.jpg);
+    height: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.fa-whatsapp{
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+.navbar .dropdown-menu {
+ border:none;
+border: top 3px solid;
+
+}
+.navbar {
+  padding-top:0px;
+  padding-bottom:0px;
+}
+.dropdown {position:static;}
+
+.navbar .dropdown-menu {
+  left:0;
+  right:0;
+  top:50px;
+}
+  
+.navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+  display:block!important;
+  transition: transform 0.6s;
+} 
+  .navbar .dropdown-menu {
+    border: 1px solid rgba(0,0,0,.15);
+    background-color: #fff;
+  }
+  .course-contentt{
+    text-align: center;
+    color: #000;
+    line-height: 50px;
+    font-size: 40px;
+    font-family: 'Roboto Light';   
+  }
+  .course-desc{
+    text-align: center;
+    font-size: 15px;
+    color: #939598;
+    display: block;
+    margin: 5px 0 0;
+  }
+.course-card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    line-height: 1.6;
+}
+.card-header{
+    background:#00796B;
+    width: auto;
+}
+.card-body{
+    padding: 20px 40px 50px 30px;
+    color: #333;
+    width: auto;
+}
+
+.card-header:hover, .card-header img{
+    top:-15px; 
+    transition: 3s;
+}
+.btn:hover, .btn-outline-dark :hover{
+  background:#00B0FF;
+  border: #00B0FF;
+}
+.parallax {
+    background-image: url("../img/image.jpg");
+    min-height: 70%;; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-course-content{
+      color: #f6f6f6;
+      padding: 70px 20px 50px 50px;
+      
+  }
+  .course-row-content{
+    background: #328ecf;
+  }
+  .secondacknoldgment-content{
+    padding: 70px 20px 50px 50px;
+    color: #f6f6f6;
+  }
+  
+  .pmfc{
+      padding: 50px 5px 50px 5px;
+  }
+  .pmfc-body{
+      padding: 20px 60px;
+  }
+  .parallaxx {
+    background-image: url("../img/slide-show-img/educationbag.jpg");
+    min-height: 30%;; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+ 
+.carousel-item 
+{
+    height: 70%;
+    color: #fff;
+    font-size: 20px;
+}
+.carousel{
+    background: green;
+    opacity: 0.5;
+}
+.slide-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
