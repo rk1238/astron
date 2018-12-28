@@ -131,3 +131,54 @@ border: top 3px solid;
     margin: 0;
     padding: 0;
 }
+.footer{
+    background: #333;
+    padding: 0px 0px;
+    color: #f6f6f6;
+}
+.footer-row{
+   padding: 40px;
+   color: #f6f6f6;
+}
+.na-l{
+    color: #f6f6f6;
+    font-family: 'Cuprum', sans-serif; 
+}
+.na-l:hover{
+    color: #00796B;
+    
+    transform: scale(1.2);
+    transition: linear 1s;
+}
+.na-title{
+    font-size:22px;
+    color: mediumseagreen; 
+    font-family: 'Cuprum', sans-serif;
+}
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-google-plus, .fa-youtube{
+    font-size: 2rem;
+    padding: 10px;
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-google-plus:hover, .fa-youtube:hover{
+    transform: rotateY(55deg);
+    transition: linear 1s;
+}
+.fa-facebook{
+    color: darkblue;
+}
+.fa-google-plus{
+    
+}
+.fa-linkedin{
+    color: #00B0FF;
+}
+.fa-youtube{
+    color: crimson;
+}
+.footer-mg:hover img{
+    transform: rotateY(55deg);
+    transition: linear 1s;
+}
+ .footer-mg p{
+    font-size: 12px;
+}

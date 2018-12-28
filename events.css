@@ -1,0 +1,101 @@
+.landing-page
+{
+    background-image: url(/img/events/bg-page.jpg);
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+html, body{
+    background-color: #f6f6f6;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.event-content-points, li{
+
+
+}
+.vline{
+    border-right: 1px solid grey;
+}
+.map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+    .main-body{
+        
+    }
+   
+    @media(min-width:768px)
+    {
+        .first-content{
+            padding-left:1em;
+        }
+    }
+    .first-content{
+        padding-left:5em;
+    }
+    
+    .register-card
+    {
+        position: sticky;
+    }
+    .fa{
+        font-size: 1em;
+        color: darkgoldenrod;
+    }
+    .sfl{
+        color: #333333;
+        font-size: 0.8em;
+        font-weight: 400;
+        font-family: 'Lato', sans-serif;
+    }
+
+    /* herrestart */
+    .hue-panel{
+        
+        margin-top: 30px;
+        padding-bottom: em;
+        border-bottom: 1px ridge #999;
+    }
+    .hue-date{
+        color:#ffb606; 
+        font-size: 4em;
+        border-right:1px ridge #999;
+        
+    }
+    .hue-month{
+        color:#ffb606; 
+        font-size: 1.3em;
+    }
+    .hue-title{
+        font-size: 1.5em;
+        color: black;
+        font-weight: 500;
+        line-height: 1.7em;
+    }
+    .hue-time{
+        font-size: 0.9em;
+        font-weight: 500;
+        color: #999;
+    }
+    .hue-desc{
+        color: #999;
+        font-size: 1em;
+        line-height: 2em;
+        padding-right: 10px;
+    }
+   .hue-nav{
+       padding-right: 50px;
+       border: 1px solid red;
+       padding-right: 1px;
+       text-transform: capitalize;
+       font-size: 0.8em;
+   }
